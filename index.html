@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HAPPY</title>
+<meta name="description" content="H.A.P.P.Y. — Helper Always Present, Protecting You. 個人用のAIアシスタント。">
+<style>
+  :root{--bg:#070b10;--fg:#d9e6ef;--dim:#7f93a3;--ice:#8fd8ff;--line:#1c2a36;color-scheme:dark}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;line-height:1.8;padding:48px max(20px,env(safe-area-inset-left)) 48px max(20px,env(safe-area-inset-right))}
+  main{max-width:640px;margin:0 auto}
+  .ring{width:96px;height:96px;border-radius:50%;border:3px solid var(--ice);box-shadow:0 0 40px #8fd8ff55, inset 0 0 24px #8fd8ff44;display:grid;place-items:center;margin-bottom:28px}
+  .ring::after{content:"";width:30px;height:30px;border-radius:50%;background:var(--ice)}
+  h1{font-size:1.6rem;letter-spacing:.3em;margin:0;color:var(--ice)}
+  .sub{color:var(--dim);letter-spacing:.12em;font-size:.8rem;margin:4px 0 32px}
+  h2{font-size:1rem;margin:32px 0 8px;border-top:1px solid var(--line);padding-top:24px}
+  a{color:var(--ice)}
+  footer{margin-top:48px;color:var(--dim);font-size:.8rem}
+</style>
+</head>
+<body>
+<main>
+  <div class="ring" aria-hidden="true"></div>
+  <h1>H.A.P.P.Y.</h1>
+  <p class="sub">HELPER ALWAYS PRESENT, PROTECTING YOU</p>
+
+  <p>HAPPYは、開発者本人だけが使う個人用のAIアシスタントです。オープンソースのエージェント「Hermes Agent」の上で動き、予定の管理、リマインド、情報のまとめを行います。</p>
+
+  <h2>できること</h2>
+  <ul>
+    <li>Googleカレンダーの予定の確認と追加</li>
+    <li>Gmailの新着メールの確認と要約</li>
+    <li>毎朝の予定・天気・締め切りの報告</li>
+  </ul>
+
+  <h2>利用者</h2>
+  <p>このアプリは一般公開していません。利用できるのは開発者本人のGoogleアカウントだけです。</p>
+
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+
+  <footer>© 2026 HAPPY</footer>
+</main>
+</body>
+</html>
